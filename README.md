@@ -1,2 +1,2 @@
 # gradientascend.github.io
-Jasraj and Jenab's blog site
+Jasraj and Zainab's blog site
