@@ -1,0 +1,26 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Jasraj and Zainab's Blog</title>
+	<link href="gradientascend.github.io/blog_posts"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://gradientascend.github.io/blog_posts</id>
+	<author>
+		<name>Gradient Ascend</name>
+		<email>gradientascend@gmail.com</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="http://gradientascend.github.io{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>http://gradientascend.github.io{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
