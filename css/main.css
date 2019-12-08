@@ -1,4 +1,5 @@
 body {
+    font-family:'Ubuntu Mono';
     margin: 60px auto;
     width: 70%;
 }
@@ -24,6 +25,7 @@ h1 {
     font-family:'Ubuntu Mono';
 }
 p {
+    font-family:'Ubuntu Mono';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
@@ -33,7 +35,8 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
+ul.posts {
+    font-family:'Ubuntu Mono';
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
