@@ -1,10 +1,10 @@
 body {
-    font-family:'Ubuntu Mono';
+    font-family:'Ubuntu Mono', 'Ubuntu Mono','Ubuntu Mono';
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Ubuntu Mono';
+    font-family:'Ubuntu Mono','Ubuntu Mono','Ubuntu Mono';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -22,10 +22,10 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Ubuntu Mono';
+    font-family:'Ubuntu Mono','Ubuntu Mono','Ubuntu Mono';
 }
 p {
-    font-family:'Ubuntu Mono';
+    font-family:'Ubuntu Mono','Ubuntu Mono','Ubuntu Mono';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
