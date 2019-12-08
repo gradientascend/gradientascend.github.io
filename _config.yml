@@ -1,2 +1,3 @@
 name: Jasraj Date, Zainab Bhatia
 markdown: kramdown
+permalink: /blog_posts/:year/:month/:day/:title
